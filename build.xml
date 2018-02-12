@@ -16,7 +16,7 @@
     <junit printsummary="true" haltonfailure="true" fork="true">   <classpath>   <path refid="NecessaryLibraries"></path>
       <pathelement location="${result.javaclasses.dir}"/>      </classpath>   <formatter type="brief" usefile="false"/> 
       <batchtest >   <fileset dir="${result.javaclasses.dir}" >
-        <include name="target/calTest.class"/> 
+        <include name="**/*Test.class"/> 
         </fileset>
       </batchtest>   
     </junit> 
