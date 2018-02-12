@@ -72,8 +72,8 @@ public class Controller {
 		
 		                        ////////////////  to check equation validation 
 		
-		if (S.contains("/0")){result = "runtime exeption ";return result;}
-		if (S.contains('\u221A'+"-")){result = "illogical oparetion ";return result;}
+		if (S.contains("/0")){result = "runtime exception ";return result;}
+		if (S.contains('\u221A'+"-")){result = "runtime exception ";return result;}
 		
 		
 	                          //////////// now we guarantee that the equation is correct , send it to model class by next function 
